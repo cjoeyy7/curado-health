@@ -1,0 +1,71 @@
+
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #eee;
+}
+
+.form {
+  max-width: 450px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+}
+
+.dropdown-submenu
+  {
+
+  }
+  .box
+      {
+        background-color: #444;
+        color: #fff;
+        border-radius: 5px;
+        padding: 20px;
+        font-size: 150%;
+      }
+
+  .box:nth-child(even)
+      {
+        background-color: #ccc;
+        color: #000;
+      }
+
+  .wrapper
+      {
+        position:static;
+        margin-top: 60px;
+        width: 600px;
+        display: grid;
+        grid-gap: 25px;
+        grid-template-columns: repeat(6, 150px);
+      }
+
+  .hover
+  {
+    position: relative;
+    display: inline-block;
+  }
+
+  .hover-text
+  {
+    visibility: hidden;
+    width: 120px;
+    background-color: lightblue;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
